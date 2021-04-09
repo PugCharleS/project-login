@@ -221,6 +221,15 @@ nav li a:hover{
     transform: scale(1.02);
 }
 
+.alert{
+    color: #ff0050;
+    padding: 13px 30px;
+    width: auto;
+    height: 50px;
+    background-color: #bdc3c7;
+    border-radius: 40px;
+    box-shadow: 0 0 20px 4px #ddd;
+}
 
 
 
