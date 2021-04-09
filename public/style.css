@@ -99,7 +99,7 @@ nav li a:hover{
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg, #ffbc00, #ff0050);
+    background: linear-gradient(45deg, #03a9f4, #ff0050);
 }
 
 .container-login .box::after{
@@ -109,7 +109,7 @@ nav li a:hover{
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(45deg, #ffbc00, #ff0050);
+    background: linear-gradient(45deg, #03a9f4, #ff0050);
     filter: blur(30px);
 }
 
@@ -193,7 +193,7 @@ nav li a:hover{
 }
 
 .espacio{
-    height: 25px;
+    height: 190px;
 }
 
 .button{
@@ -218,19 +218,6 @@ nav li a:hover{
     transform: scale(1.02);
 }
 
-.registro{
-    position: relative;
-    text-decoration: none;
-    cursor: pointer;
-    color: wheat;
-    top: 40px;
-    left: 170px;
-}
-
-.registro:hover{
-    color: white;
-    border-bottom: 2px solid white;
-}
 
 
 
