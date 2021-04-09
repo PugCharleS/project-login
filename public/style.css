@@ -1,9 +1,22 @@
-nav{
-    background-color: #563d7c;
-    color: #ddd;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #333;
+}
+
+nav{    
+    color: #fff;
     padding: 30px 60px;
     display: flex;
     justify-content: space-between;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-attachment: fixed;
 }
 
 nav ul{
@@ -18,12 +31,39 @@ nav li{
 
 nav li a{
     text-decoration: none;
-    color: #ddd;
+    color: #111;
     font-weight: bold;
     padding: 5px 8px;
 }
 
 nav li a:hover{
-    color: yellowgreen;
+    color: #ddd;
     text-decoration: none;
 }
+
+.container{
+    position: relative;
+    width: 500px;
+    height: 350px;
+    background-color: #111;
+    margin: 200px auto;
+    color: #ddd;
+    text-align: center;
+    box-shadow: 0 0 40px 7px #ddd;
+    border-radius: 40px;
+    opacity: 75%;
+}
+
+.container .title{
+    position: absolute;
+    top: 100px;
+    left: 125px;
+}
+
+.container:hover{
+    opacity: 100%;
+    transition: 0.8s;
+}
+
+
+
