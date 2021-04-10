@@ -1,4 +1,4 @@
-# proyecto-login
+# project-login
 In this project I created a registration and login system. 
 Tools: 
 -HBS 
